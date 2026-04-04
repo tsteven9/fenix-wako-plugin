@@ -1,0 +1,26 @@
+{
+  "name": "fenix-wako-plugin",
+  "version": "1.0.0",
+  "scripts": { "build": "ng build plugin --configuration production && gulp" },
+  "dependencies": {
+    "@angular/common":           "^17.0.0",
+    "@angular/core":             "^17.0.0",
+    "@angular/forms":            "^17.0.0",
+    "@angular/platform-browser": "^17.0.0",
+    "@ionic/angular":            "^7.0.0",
+    "@ionic/storage-angular":    "^4.0.0",
+    "@ngx-translate/core":       "^15.0.0",
+    "@wako-app/mobile-sdk":      "^11.0.0",
+    "ionicons":                  "^7.0.0",
+    "rxjs":                      "^7.8.0"
+  },
+  "devDependencies": {
+    "@angular-builders/custom-webpack": "^17.0.0",
+    "@angular/cli":                     "^17.0.0",
+    "@angular/compiler":                "^17.0.0",
+    "@angular/compiler-cli":            "^17.0.0",
+    "gulp":                             "^4.0.2",
+    "gulp-rename":                      "^2.0.0",
+    "typescript":                       "~5.2.0"
+  }
+}

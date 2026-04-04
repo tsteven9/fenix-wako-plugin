@@ -1,0 +1,12 @@
+{
+  "$schema": "../../../node_modules/@wako-app/mobile-sdk/dist/manifest-schema.json",
+  "version": "1.0.0",
+  "id": "plugin.fenix",
+  "name": "Fenix",
+  "description": "Open movies, shows and episodes in Fen or Fenlight on Kodi.",
+  "author": "Stevenson",
+  "actions": ["movies", "episodes", "shows"],
+  "entryPointV4": "/plugin.js",
+  "languages": { "en": "/i18n/en.json" },
+  "changeLogs": { "1.0.0": "Initial release" }
+}
