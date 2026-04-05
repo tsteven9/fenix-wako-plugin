@@ -1,6 +1,6 @@
 {
   "$schema": "../../../node_modules/@wako-app/mobile-sdk/dist/manifest-schema.json",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "id": "plugin.fenix",
   "name": "Fenix",
   "description": "Open movies, shows and episodes in Fen or Fenlight on Kodi.",
@@ -8,5 +8,9 @@
   "actions": ["movies", "episodes", "shows"],
   "entryPointV4": "/plugin.js",
   "languages": { "en": "/i18n/en.json" },
-  "changeLogs": { "1.0.0": "Initial release" }
+  "settings": true,
+  "changeLogs": {
+    "1.0.1": "Fix settings page",
+    "1.0.0": "Initial release"
+  }
 }
